@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Bruno César: Análise de Dados, Python, SQL, Power BI, automação e projetos orientados a problemas reais de negócio."
+    />
+    <title>Bruno César | Portfólio de Análise de Dados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=8" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand-mark">BC</span>
+        <span>Bruno César</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#projetos">Projetos</a>
+        <a href="#metodo">Métodos</a>
+        <a href="#stack">Stack</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/bruno-hero.png" alt="Bruno César em ambiente profissional com notebook e segunda tela de trabalho." />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Análise de Dados • Automação • Business Intelligence</p>
+          <h1 id="hero-title">Transformo dados em decisões de negócio.</h1>
+          <p class="hero-copy">
+            Desenvolvo análises, automações e dashboards que transformam dados brutos em informações claras para
+            apoiar decisões, otimizar processos e identificar oportunidades.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-secondary" href="#contato">Falar comigo</a>
+          </div>
+          <p class="hero-stack" aria-label="Principais tecnologias">Python • SQL • Power BI • ETL • APIs</p>
+        </div>
+      </section>
+
+      <section class="metrics-band" aria-label="Indicadores de atuação">
+        <div class="metric">
+          <strong>100k+</strong>
+          <span>registros analisados</span>
+        </div>
+        <div class="metric">
+          <strong>2</strong>
+          <span>projetos reais em uso</span>
+        </div>
+        <div class="metric">
+          <strong>3</strong>
+          <span>bases operacionais consolidadas</span>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projetos" aria-labelledby="projects-title">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Estudos de Caso</p>
+            <h2 id="projects-title">Projetos de Dados e Automação</h2>
+          </div>
+          <!-- Os filtros podem ser reativados aqui quando houver mais categorias de projetos. -->
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card image-project" data-category="bi sql">
+            <div class="project-visual dashboard-image-preview carteira-image-preview">
+              <img
+                src="assets/carteira-visao-geral-anonima.png"
+                alt="Visão geral anonimizada da carteira de vidas, com indicadores e detalhamento das empresas."
+              />
+            </div>
+            <div class="project-body">
+              <div class="project-topline">
+                <span>Departamento Pessoal</span>
+                <span>SQL + Power BI</span>
+              </div>
+              <h3>Dashboard de Gestão de Carteira e Indicadores de DP</h3>
+              <p>
+                Centralização de dados de empresas e colaboradores em um painel gerencial desenvolvido para acompanhar
+                a evolução da carteira, movimentações, indicadores operacionais e informações relevantes para a gestão.
+              </p>
+              <ul class="project-list">
+                <li>Integração de bases e views SQL voltadas a indicadores de Departamento Pessoal.</li>
+                <li>Acompanhamento de carteira, colaboradores, movimentações e informações cadastrais.</li>
+                <li>Organização dos dados para consultas operacionais e análises gerenciais.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card featured-project" data-category="python sql bi">
+            <button class="project-visual dashboard-image-preview" type="button" data-project-gallery aria-label="Alternar entre visão geral e raio X do projeto de automação de dados" aria-pressed="false">
+              <img
+                class="project-image-primary"
+                src="assets/analise-2026-overview.png"
+                alt="Visão geral do dashboard Análise Departamento Pessoal 2026."
+              />
+              <img
+                class="project-image-secondary"
+                src="assets/analise-2026-raiox.png"
+                alt="Raio X de documentos enviados por colaborador, tipo e cliente."
+                aria-hidden="true"
+              />
+            </button>
+            <div class="project-body">
+              <div class="project-topline">
+                <span>Solicitações 2026</span>
+                <span>Python + Excel + Power BI</span>
+              </div>
+              <h3>Automação de Pipeline de Dados e Documentos Operacionais</h3>
+              <p>
+                Pipeline desenvolvido para coletar, validar, consolidar e organizar dados provenientes de diferentes
+                fontes operacionais, incluindo documentos enviados e solicitações recebidas, reduzindo etapas manuais e preparando as informações para análises em Power BI.
+              </p>
+              <ul class="project-list">
+                <li>Mais de 98 mil registros processados entre documentos enviados, recebidos e solicitações.</li>
+                <li>Automação desenvolvida em Python utilizando Pandas, Requests e OpenPyXL.</li>
+                <li>Validação de chaves, duplicidades, datas, integridade das bases e volume de processamento.</li>
+                <li>Rotinas de backup e consolidação automática das bases.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section method-section" id="metodo" aria-labelledby="method-title">
+        <div class="section-heading">
+          <p class="eyebrow">Como eu trabalho</p>
+          <h2 id="method-title">Do dado bruto à decisão.</h2>
+        </div>
+        <div class="process-grid">
+          <article class="process-step">
+            <span>01</span>
+            <h3>Problema</h3>
+            <p>Traduzo a demanda em perguntas, métricas e critérios de sucesso.</p>
+          </article>
+          <article class="process-step">
+            <span>02</span>
+            <h3>Dados</h3>
+            <p>Mapeio fontes, qualidade, granularidade e regras de negócio.</p>
+          </article>
+          <article class="process-step">
+            <span>03</span>
+            <h3>Análise</h3>
+            <p>Construo consultas, modelos, validações e visualizações que transformam dados em informação.</p>
+          </article>
+          <article class="process-step">
+            <span>04</span>
+            <h3>Entrega</h3>
+            <p>Transformo análises em informações claras, com dashboards e indicadores que apoiam decisões e ações de negócio.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Ferramentas</p>
+            <h2 id="stack-title">Stack para projetos analíticos de ponta a ponta.</h2>
+          </div>
+          <p class="section-note">
+            Da extração e tratamento dos dados à análise e visualização, utilizando ferramentas que permitem construir
+            soluções reproduzíveis e de fácil manutenção.
+          </p>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-item">SQL</div>
+          <div class="stack-item">Power BI</div>
+          <div class="stack-item">Python</div>
+          <div class="stack-item">Pandas</div>
+          <div class="stack-item">Excel</div>
+          <div class="stack-item">DAX</div>
+          <div class="stack-item">Looker Studio</div>
+          <div class="stack-item">Git</div>
+        </div>
+      </section>
+
+      <section class="section intro-section" aria-labelledby="intro-title">
+        <div class="section-heading">
+          <p class="eyebrow">Sobre mim</p>
+          <h2 id="intro-title">Experiência em tecnologia com foco em dados.</h2>
+        </div>
+        <div class="intro-grid intro-highlight">
+          <article class="intro-card">
+            <h3>Minha trajetória</h3>
+            <p>
+              Sou Bruno César, profissional com mais de 3 anos de experiência na área de Tecnologia da Informação e
+              atualmente atuo como Analista. Estou concluindo minha graduação em Inteligência Artificial, direcionando
+              minha trajetória profissional para Análise de Dados, automação e Business Intelligence. Desenvolvo soluções
+              que combinam tecnologia, análise e visualização para transformar dados dispersos em informações confiáveis
+              e úteis para o negócio.
+            </p>
+          </article>
+          <article class="intro-card">
+            <h3>Como eu trabalho com dados</h3>
+            <p>
+              Meu trabalho começa antes do dashboard: busco entender o problema, conhecer as regras do negócio,
+              estruturar e validar os dados e, a partir disso, construir análises e indicadores que ajudem a identificar
+              prioridades, riscos e oportunidades. Valorizo soluções claras, confiáveis, reproduzíveis e realmente úteis
+              para quem precisa tomar decisões.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2 id="contact-title">Vamos conversar sobre dados e tecnologia.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:brunoalmeidamotta@outlook.com">Enviar email</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/bruno-c%C3%A9sar-almeida-motta-de-oliveira-424362322/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <!-- Adicionar o botão “Baixar currículo” quando o arquivo estiver disponível. -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bruno César</span>
+      <span>Portfólio de Análise de Dados</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
