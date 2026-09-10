@@ -555,6 +555,26 @@ h2 {
   content: "";
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  color: var(--teal-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(11, 99, 99, 0.32);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  color: var(--ink);
+  text-decoration-color: var(--amber);
+}
+
 .method-section {
   background: #edf2ef;
 }
