@@ -1,15 +1,21 @@
 # Portfólio de Análise de Dados
 
-Site estático profissional de Bruno César para apresentar projetos reais de Análise de Dados, BI, SQL e Python.
+Site profissional de Bruno César para apresentar projetos reais de Análise de Dados, Business Intelligence, SQL,
+Python e automação.
 
-## Arquivos
+## Projetos apresentados
 
-- `index.html`: estrutura e conteúdo principal.
-- `styles.css`: layout, responsividade e identidade visual.
-- `script.js`: menu mobile, header dinâmico e filtro de projetos.
-- `assets/bruno-hero.png`: imagem principal do hero com retrato profissional.
-- `assets/data-analytics-hero.png`: imagem alternativa gerada para apoio visual.
+- **Gestão da Carteira:** dashboard em SQL + Power BI para acompanhar empresas, vidas administradas, tipos de vínculo e crescimento da carteira desde 2020.
+- **Gestão da Operação:** pipeline em Python integrado ao Excel e Power BI para monitorar demandas, produtividade e capacidade operacional da equipe.
 
-## Personalização rápida
+## Estrutura
 
-O LinkedIn já está configurado. Adicione os botões de GitHub e currículo quando houver URLs específicas disponíveis e refine os resultados dos projetos apenas com dados verificáveis e anonimizados.
+- `index.html`: conteúdo e estrutura semântica do portfólio.
+- `styles.css`: identidade visual e layout responsivo.
+- `script.js`: navegação móvel, comportamento do cabeçalho e galeria do segundo projeto.
+- `assets/`: imagens do perfil, dashboards e elementos visuais.
+
+## Publicação
+
+O site é estático e publicado pelo GitHub Pages em
+[brunocesaralmeida.github.io](https://brunocesaralmeida.github.io/).

@@ -8,15 +8,32 @@ function updateHeader() {
   header.classList.toggle("scrolled", window.scrollY > 24);
 }
 
-navToggle.addEventListener("click", () => {
-  const isOpen = nav.classList.toggle("open");
+function setNavState(isOpen) {
+  nav.classList.toggle("open", isOpen);
   navToggle.setAttribute("aria-expanded", String(isOpen));
+  navToggle.setAttribute("aria-label", isOpen ? "Fechar menu" : "Abrir menu");
+}
+
+navToggle.addEventListener("click", () => {
+  setNavState(!nav.classList.contains("open"));
 });
 
 nav.addEventListener("click", (event) => {
   if (event.target.matches("a")) {
-    nav.classList.remove("open");
-    navToggle.setAttribute("aria-expanded", "false");
+    setNavState(false);
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && nav.classList.contains("open")) {
+    setNavState(false);
+    navToggle.focus();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 980 && nav.classList.contains("open")) {
+    setNavState(false);
   }
 });
 

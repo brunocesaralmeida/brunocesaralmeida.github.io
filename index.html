@@ -7,16 +7,28 @@
       name="description"
       content="Portfólio de Bruno César: Análise de Dados, Python, SQL, Power BI, automação e projetos orientados a problemas reais de negócio."
     />
+    <meta name="theme-color" content="#d9921e" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://brunocesaralmeida.github.io/" />
+    <meta property="og:title" content="Bruno César | Portfólio de Análise de Dados" />
+    <meta
+      property="og:description"
+      content="Projetos de Business Intelligence, automação, Python, SQL e Power BI aplicados a problemas reais de negócio."
+    />
+    <meta property="og:image" content="https://brunocesaralmeida.github.io/assets/bruno-hero.png" />
     <title>Bruno César | Portfólio de Análise de Dados</title>
+    <link rel="canonical" href="https://brunocesaralmeida.github.io/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=11" />
+    <link rel="stylesheet" href="styles.css?v=12" />
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
     <header class="site-header" data-header>
       <a class="brand" href="#inicio" aria-label="Voltar ao início">
         <span class="brand-mark">BC</span>
@@ -36,9 +48,16 @@
       </nav>
     </header>
 
-    <main>
+    <main id="conteudo">
       <section class="hero" id="inicio" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/bruno-hero.png" alt="Bruno César em ambiente profissional com notebook e segunda tela de trabalho." />
+        <img
+          class="hero-image"
+          src="assets/bruno-hero.png"
+          alt="Bruno César em ambiente profissional com notebook e segunda tela de trabalho."
+          width="1672"
+          height="941"
+          fetchpriority="high"
+        />
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <p class="eyebrow">Análise de Dados • Automação • Business Intelligence</p>
@@ -88,6 +107,10 @@
               <img
                 src="assets/carteira-visao-geral-anonima.png"
                 alt="Visão geral anonimizada da carteira de vidas, com indicadores e detalhamento das empresas."
+                width="1676"
+                height="939"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div class="project-body">
@@ -137,13 +160,22 @@
                 class="project-image-primary"
                 src="assets/analise-2026-overview.png"
                 alt="Visão geral do dashboard Análise Departamento Pessoal 2026."
+                width="1160"
+                height="620"
+                loading="lazy"
+                decoding="async"
               />
               <img
                 class="project-image-secondary"
                 src="assets/analise-2026-raiox.png"
                 alt="Raio X de documentos enviados por colaborador, tipo e cliente."
+                width="980"
+                height="470"
+                loading="lazy"
+                decoding="async"
                 aria-hidden="true"
               />
+              <span class="gallery-hint" aria-hidden="true">Passe o mouse ou toque para alternar</span>
             </button>
             <div class="project-body">
               <div class="project-topline">
@@ -292,6 +324,6 @@
       <span>Portfólio de Análise de Dados</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
   </body>
 </html>
