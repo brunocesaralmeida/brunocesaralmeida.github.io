@@ -529,6 +529,11 @@ h2 {
   color: var(--muted);
 }
 
+.project-description {
+  display: grid;
+  gap: 12px;
+}
+
 .project-list {
   display: grid;
   gap: 10px;
