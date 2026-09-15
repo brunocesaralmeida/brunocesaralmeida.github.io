@@ -26,7 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=12" />
+    <link rel="stylesheet" href="styles.css?v=13" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -104,7 +104,13 @@
 
         <div class="projects-grid">
           <article class="project-card image-project" data-category="bi sql">
-            <div class="project-visual dashboard-image-preview carteira-image-preview">
+            <button
+              class="project-visual dashboard-image-preview carteira-image-preview"
+              type="button"
+              data-lightbox-trigger
+              data-lightbox-title="Dashboard de Gestão da Carteira"
+              aria-label="Ampliar dashboard de gestão da carteira"
+            >
               <img
                 src="assets/carteira-visao-geral-anonima.webp"
                 alt="Visão geral anonimizada da carteira de vidas, com indicadores e detalhamento das empresas."
@@ -113,7 +119,8 @@
                 loading="lazy"
                 decoding="async"
               />
-            </div>
+              <span class="gallery-hint" aria-hidden="true">Clique para ampliar</span>
+            </button>
             <div class="project-body">
               <div class="project-topline">
                 <span>Gestão da Carteira</span>
@@ -158,7 +165,14 @@
           </article>
 
           <article class="project-card featured-project" data-category="python sql bi">
-            <button class="project-visual dashboard-image-preview" type="button" data-project-gallery aria-label="Alternar entre visão geral e raio X do projeto de gestão da operação" aria-pressed="false">
+            <button
+              class="project-visual dashboard-image-preview"
+              type="button"
+              data-project-gallery
+              data-lightbox-trigger
+              data-lightbox-title="Dashboard de Gestão da Operação"
+              aria-label="Ampliar galeria do dashboard de gestão da operação"
+            >
               <img
                 class="project-image-primary"
                 src="assets/analise-2026-overview.webp"
@@ -178,7 +192,7 @@
                 decoding="async"
                 aria-hidden="true"
               />
-              <span class="gallery-hint" aria-hidden="true">Passe o mouse ou toque para alternar</span>
+              <span class="gallery-hint" aria-hidden="true">Clique para ampliar • 2 imagens</span>
             </button>
             <div class="project-body">
               <div class="project-topline">
@@ -325,7 +339,28 @@
       <span>Portfólio de Análise de Dados</span>
     </footer>
 
-    <script src="script.js?v=2"></script>
+    <dialog class="image-lightbox" data-lightbox aria-labelledby="lightbox-title">
+      <div class="lightbox-panel">
+        <header class="lightbox-header">
+          <div>
+            <p>Visualização do projeto</p>
+            <h2 id="lightbox-title" data-lightbox-title></h2>
+          </div>
+          <button class="lightbox-close" type="button" data-lightbox-close aria-label="Fechar visualização">×</button>
+        </header>
+
+        <figure class="lightbox-figure">
+          <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Imagem anterior">←</button>
+          <img data-lightbox-image alt="" />
+          <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Próxima imagem">→</button>
+          <figcaption data-lightbox-caption></figcaption>
+        </figure>
+
+        <p class="lightbox-counter" data-lightbox-counter aria-live="polite"></p>
+      </div>
+    </dialog>
+
+    <script src="script.js?v=3"></script>
     <!-- Cloudflare Web Analytics -->
     <script
       type="module"
