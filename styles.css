@@ -305,13 +305,14 @@ h2 {
 
 .intro-grid {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 36px;
-  max-width: 1120px;
+  gap: 24px;
+  max-width: none;
 }
 
 .intro-highlight {
-  max-width: 1120px;
+  max-width: none;
   padding: 0;
   border: 0;
   background: transparent;
@@ -330,7 +331,8 @@ h2 {
 }
 
 .intro-card {
-  min-height: 190px;
+  aspect-ratio: 4 / 3;
+  min-height: 340px;
   padding: 30px;
   border: 1px solid rgba(217, 146, 30, 0.2);
   border-radius: 8px;
@@ -966,6 +968,11 @@ body.lightbox-open {
   }
 
   .dashboard-image-preview {
+    min-height: 0;
+  }
+
+  .intro-card {
+    aspect-ratio: auto;
     min-height: 0;
   }
 
