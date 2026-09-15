@@ -339,8 +339,8 @@ h2 {
 }
 
 .stack-section .section-note {
-  color: #263638;
-  font-weight: 500;
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .projects-section {
@@ -682,11 +682,11 @@ h2 {
 .stack-section::before {
   position: absolute;
   z-index: -1;
-  inset: 28px 0 -96px;
+  inset: 0 0 -96px;
   background-image: url("assets/database-network-background.png");
-  background-position: center calc(100% + 20px);
+  background-position: center 48%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 167%;
   content: "";
   opacity: 0.22;
   pointer-events: none;
@@ -853,9 +853,9 @@ h2 {
   }
 
   .stack-section::before {
-    inset: 24px 0 -72px;
-    background-position: center calc(100% + 12px);
-    background-size: auto 100%;
+    inset: 0 0 -72px;
+    background-position: center 48%;
+    background-size: auto 145%;
     opacity: 0.16;
   }
 
