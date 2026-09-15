@@ -96,6 +96,22 @@ button:focus-visible {
   font-weight: 800;
 }
 
+.brand-copy {
+  display: grid;
+  line-height: 1.15;
+}
+
+.brand-copy strong {
+  font-size: 0.98rem;
+}
+
+.brand-copy small {
+  margin-top: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 .brand-mark {
   display: grid;
   width: 42px;
@@ -908,6 +924,27 @@ body.lightbox-open {
 }
 
 @media (max-width: 640px) {
+  .brand {
+    gap: 9px;
+  }
+
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+  }
+
+  .brand-copy {
+    max-width: calc(100vw - 145px);
+  }
+
+  .brand-copy strong {
+    font-size: 0.86rem;
+  }
+
+  .brand-copy small {
+    font-size: 0.58rem;
+  }
+
   .hero {
     min-height: 88vh;
   }
