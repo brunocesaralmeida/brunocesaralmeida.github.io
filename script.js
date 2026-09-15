@@ -1,8 +1,6 @@
 const header = document.querySelector("[data-header]");
 const nav = document.querySelector("[data-nav]");
 const navToggle = document.querySelector("[data-nav-toggle]");
-const filterButtons = document.querySelectorAll("[data-filter]");
-const projectCards = document.querySelectorAll("[data-category]");
 
 function updateHeader() {
   header.classList.toggle("scrolled", window.scrollY > 24);
@@ -35,20 +33,6 @@ window.addEventListener("resize", () => {
   if (window.innerWidth > 980 && nav.classList.contains("open")) {
     setNavState(false);
   }
-});
-
-filterButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const filter = button.dataset.filter;
-
-    filterButtons.forEach((item) => item.classList.remove("active"));
-    button.classList.add("active");
-
-    projectCards.forEach((card) => {
-      const categories = card.dataset.category.split(" ");
-      card.classList.toggle("hidden", filter !== "all" && !categories.includes(filter));
-    });
-  });
 });
 
 window.addEventListener("scroll", updateHeader, { passive: true });
