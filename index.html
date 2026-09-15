@@ -188,33 +188,31 @@
               <h3>Automação e Analytics da Operação de Departamento Pessoal</h3>
               <div class="project-description">
                 <p>
-                  Pipeline de dados desenvolvido em <strong>Python</strong> para coletar, validar, consolidar e transformar
-                  informações provenientes de diferentes fontes operacionais do Departamento Pessoal. Os dados processados
-                  alimentam um dashboard gerencial no Power BI, permitindo acompanhar em tempo real o volume de
-                  <strong>solicitações recebidas, documentos enviados e documentos recebidos</strong>, além da evolução
-                  desses indicadores ao longo do ano.
+                  Primeira solução estruturada para mensurar as demandas operacionais do Departamento Pessoal. Antes do
+                  projeto, as atividades eram conduzidas conforme chegavam, sem uma visão consolidada dos volumes. O novo
+                  processo permite acompanhar <strong>solicitações recebidas, documentos enviados aos clientes e
+                  documentos recebidos</strong> ao longo do mês e do ano.
                 </p>
                 <p>
-                  Mais do que acompanhar o volume de demandas, a solução permite analisar a
-                  <strong>distribuição da operação entre os colaboradores</strong>, identificar volumes processados
-                  individualmente, comparar desempenho, acompanhar médias mensais e entender quais empresas e tipos de
-                  solicitação mais impactam a rotina do departamento.
+                  O pipeline desenvolvido em <strong>Python</strong> consulta uma API, coleta os três tipos de documento,
+                  valida chaves, datas, duplicidades e integridade dos registros, consolida os novos dados com o histórico
+                  e cria backups antes de atualizar as bases. Todo o ciclo mensal, do download à atualização do Power BI,
+                  é concluído em <strong>menos de dez minutos</strong>.
                 </p>
                 <p>
-                  Com essas informações centralizadas, a liderança passa a ter uma visão objetiva da
-                  <strong>produtividade, carga de trabalho, comportamento da demanda e capacidade operacional da equipe</strong>,
-                  apoiando decisões sobre distribuição de atividades, dimensionamento de recursos e melhoria dos processos
-                  internos.
+                  O dashboard oferece à supervisão análises por colaborador, tipo de solicitação ou documento, empresa,
+                  mês e ano. Com essa visão, é possível <strong>distribuir melhor as atividades, acompanhar a evolução das
+                  demandas e identificar empresas que exigem maior atenção</strong>. Os dados apresentados publicamente
+                  são fictícios e anonimizados para preservar a privacidade conforme os princípios da LGPD.
                 </p>
               </div>
               <ul class="project-list">
-                <li><strong>Mais de 98 mil registros processados</strong> entre solicitações, documentos enviados e documentos recebidos.</li>
-                <li><strong>Pipeline automatizado em Python</strong>, responsável pela coleta, tratamento, validação e consolidação dos dados operacionais.</li>
-                <li><strong>Monitoramento da operação em tempo real</strong>, com indicadores de volume, médias mensais e evolução das demandas ao longo do ano.</li>
-                <li><strong>Análise de produtividade por colaborador</strong>, permitindo acompanhar volumes processados e participação individual na operação.</li>
-                <li><strong>Identificação das empresas e demandas com maior impacto</strong>, facilitando a análise da concentração e distribuição da carga de trabalho.</li>
-                <li><strong>Validação automática de chaves, duplicidades, datas e integridade das bases</strong>, aumentando a confiabilidade das informações utilizadas no dashboard.</li>
-                <li><strong>Integração entre Python, Excel e Power BI</strong>, reduzindo etapas manuais e transformando dados operacionais em indicadores para tomada de decisão.</li>
+                <li><strong>Mais de 98 mil registros processados entre janeiro e agosto de 2026</strong>, considerando os três fluxos operacionais.</li>
+                <li><strong>Processamento mensal em menos de dez minutos</strong>, incluindo coleta, consolidação e atualização do dashboard.</li>
+                <li><strong>Extração paginada via API</strong>, com seleção de período e categorias para solicitações, documentos enviados e documentos recebidos.</li>
+                <li><strong>Validação automática de integridade</strong>, verificando chaves vazias ou duplicadas, datas inválidas e registros fora do período.</li>
+                <li><strong>Consolidação incremental com backup</strong>, preservando o histórico e evitando duplicidades antes de atualizar as bases principais.</li>
+                <li><strong>Raio X da operação</strong> por colaborador, solicitação, documento, empresa, mês e ano, apoiando a distribuição de atividades e a definição de prioridades.</li>
               </ul>
               <a
                 class="project-link"
