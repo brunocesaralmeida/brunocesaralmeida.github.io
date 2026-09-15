@@ -26,7 +26,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=17" />
+    <link rel="stylesheet" href="styles.css?v=18" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -36,12 +36,12 @@
         <span>Bruno César</span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
         <span></span>
         <span></span>
       </button>
 
-      <nav class="site-nav" data-nav>
+      <nav class="site-nav" id="site-navigation" data-nav>
         <a href="#projetos">Projetos</a>
         <a href="#metodo">Métodos</a>
         <a href="#stack">Stack</a>
@@ -85,8 +85,8 @@
           <span>projetos reais em uso</span>
         </div>
         <div class="metric">
-          <strong>&lt;10 min</strong>
-          <span>para o processamento mensal completo</span>
+          <strong>9k+</strong>
+          <span>vidas monitoradas pela solução</span>
         </div>
       </section>
 
@@ -98,7 +98,8 @@
           </div>
           <p class="section-note">
             Uma visão integrada de Business Intelligence aplicado ao Departamento Pessoal: da evolução da carteira à
-            produtividade e à capacidade operacional da equipe.
+            produtividade e à capacidade operacional da equipe. Os dados exibidos nos painéis são fictícios e
+            anonimizados para preservar a privacidade conforme os princípios da LGPD.
           </p>
         </div>
 
@@ -129,22 +130,14 @@
               <h3>Dashboard de Inteligência e Gestão da Carteira de Departamento Pessoal</h3>
               <div class="project-description">
                 <p>
-                  Primeira solução analítica da empresa dedicada à gestão da carteira do Departamento Pessoal. O projeto
-                  substituiu análises baseadas principalmente na <strong>percepção da equipe e na entrada de novas
-                  empresas</strong> por uma visão centralizada, histórica e orientada por indicadores.
+                  <strong>Problema:</strong> a gestão da carteira dependia da percepção da equipe e de controles dispersos.
                 </p>
                 <p>
-                  A solução conecta o Power BI a <strong>duas views personalizadas em SQL</strong>. Para proteger o banco
-                  de dados, foi criado um usuário exclusivo com permissão somente de consulta. A atualização semanal
-                  também pode ser executada sob demanda diretamente no dashboard e é concluída em
-                  <strong>menos de um minuto</strong>.
+                  <strong>Solução:</strong> Power BI conectado a duas views SQL por um usuário com acesso somente leitura.
                 </p>
                 <p>
-                  Utilizado pelo Departamento Pessoal e pela diretoria, o painel acompanha empresas ativas, empresas com
-                  folha, total de vidas, tipos de vínculo, crescimento anual em volume e percentual e faixas de tamanho
-                  das empresas. Essas informações fornecem uma base objetiva para <strong>mensurar a necessidade de
-                  colaboradores e apoiar decisões sobre novas contratações</strong>. Os dados apresentados publicamente
-                  são fictícios e anonimizados para preservar a privacidade conforme os princípios da LGPD.
+                  <strong>Impacto:</strong> histórico desde 2020, atualização em menos de um minuto e apoio ao
+                  dimensionamento da equipe e às decisões de contratação.
                 </p>
               </div>
               <ul class="project-list">
@@ -202,22 +195,16 @@
               <h3>Automação e Analytics da Operação de Departamento Pessoal</h3>
               <div class="project-description">
                 <p>
-                  Primeira solução estruturada para mensurar as demandas operacionais do Departamento Pessoal. Antes do
-                  projeto, as atividades eram conduzidas conforme chegavam, sem uma visão consolidada dos volumes. O novo
-                  processo permite acompanhar <strong>solicitações recebidas, documentos enviados aos clientes e
-                  documentos recebidos</strong> ao longo do mês e do ano.
+                  <strong>Problema:</strong> as demandas eram tratadas conforme chegavam, sem mensuração consolidada de
+                  volume, origem ou distribuição entre os colaboradores.
                 </p>
                 <p>
-                  O pipeline desenvolvido em <strong>Python</strong> consulta uma API, coleta os três tipos de documento,
-                  valida chaves, datas, duplicidades e integridade dos registros, consolida os novos dados com o histórico
-                  e cria backups antes de atualizar as bases. Todo o ciclo mensal, do download à atualização do Power BI,
-                  é concluído em <strong>menos de dez minutos</strong>.
+                  <strong>Solução:</strong> pipeline Python que coleta dados via API, valida e consolida solicitações,
+                  documentos enviados e documentos recebidos para análise no Power BI.
                 </p>
                 <p>
-                  O dashboard oferece à supervisão análises por colaborador, tipo de solicitação ou documento, empresa,
-                  mês e ano. Com essa visão, é possível <strong>distribuir melhor as atividades, acompanhar a evolução das
-                  demandas e identificar empresas que exigem maior atenção</strong>. Os dados apresentados publicamente
-                  são fictícios e anonimizados para preservar a privacidade conforme os princípios da LGPD.
+                  <strong>Impacto:</strong> mais de 98 mil registros analisados entre janeiro e agosto de 2026, ciclo
+                  mensal concluído em menos de dez minutos e apoio à distribuição das atividades e prioridades.
                 </p>
               </div>
               <ul class="project-list">

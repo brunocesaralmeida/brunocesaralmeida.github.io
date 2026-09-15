@@ -7,6 +7,7 @@
   --teal: #0f8c8c;
   --teal-dark: #0b5f63;
   --amber: #d9921e;
+  --amber-text: #985600;
   --clay: #b55b44;
   --forest: #426b4f;
   --shadow: 0 24px 60px rgba(11, 31, 34, 0.14);
@@ -161,11 +162,16 @@ button:focus-visible {
 
 .eyebrow {
   margin: 0 0 14px;
-  color: var(--amber);
+  color: var(--amber-text);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+.hero .eyebrow,
+.contact-section .eyebrow {
+  color: var(--amber);
 }
 
 h1,
