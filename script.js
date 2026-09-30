@@ -1,6 +1,44 @@
 const header = document.querySelector("[data-header]");
 const nav = document.querySelector("[data-nav]");
 const navToggle = document.querySelector("[data-nav-toggle]");
+const themeToggle = document.querySelector("[data-theme-toggle]");
+const themeColor = document.querySelector("[data-theme-color]");
+const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+const themeStorageKey = "portfolio-theme";
+
+function getSavedTheme() {
+  try {
+    return localStorage.getItem(themeStorageKey);
+  } catch {
+    return null;
+  }
+}
+
+function applyTheme(theme) {
+  const isDark = theme === "dark";
+  document.documentElement.dataset.theme = theme;
+  document.documentElement.style.colorScheme = theme;
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+  themeToggle.setAttribute("aria-label", isDark ? "Ativar tema claro" : "Ativar tema escuro");
+  themeToggle.title = isDark ? "Ativar tema claro" : "Ativar tema escuro";
+  themeColor.setAttribute("content", isDark ? "#101817" : "#d9921e");
+}
+
+applyTheme(document.documentElement.dataset.theme || (systemTheme.matches ? "dark" : "light"));
+
+themeToggle.addEventListener("click", () => {
+  const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  applyTheme(nextTheme);
+  try {
+    localStorage.setItem(themeStorageKey, nextTheme);
+  } catch {
+    // O tema continua ativo nesta visita quando o armazenamento não está disponível.
+  }
+});
+
+systemTheme.addEventListener("change", (event) => {
+  if (!getSavedTheme()) applyTheme(event.matches ? "dark" : "light");
+});
 
 function updateHeader() {
   header.classList.toggle("scrolled", window.scrollY > 24);
