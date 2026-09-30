@@ -444,12 +444,14 @@ h2 {
 .intro-card h3 {
   margin: 0 0 16px;
   color: #1d170c;
-  font-size: 1.26rem;
-  line-height: 1.15;
+  font-size: 1.4rem;
 }
 
 .intro-card p {
   margin: 0;
+  color: rgba(29, 23, 12, 0.82);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .section-note {
