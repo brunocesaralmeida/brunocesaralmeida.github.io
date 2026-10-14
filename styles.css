@@ -493,6 +493,18 @@ h2 {
   grid-template-rows: auto 1fr;
 }
 
+.project-card.project-card-wide {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  grid-template-rows: 1fr;
+  min-height: 0;
+}
+
+.commercial-image-preview {
+  aspect-ratio: 16 / 9;
+  min-height: 100%;
+}
+
 .project-visual {
   position: relative;
   display: grid;
@@ -545,6 +557,19 @@ h2 {
   object-position: center;
   background: #f8faf8;
   transition: opacity 220ms ease;
+}
+
+.project-status {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: auto;
+  padding: 9px 12px;
+  border: 1px solid color-mix(in srgb, var(--teal) 34%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--teal) 10%, transparent);
+  color: var(--teal-dark);
+  font-size: 0.78rem;
+  font-weight: 800;
 }
 
 .project-image-secondary {
@@ -1001,6 +1026,15 @@ body.lightbox-open {
 
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card.project-card-wide {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .commercial-image-preview {
+    min-height: 0;
   }
 
   .section-heading.split,

@@ -38,7 +38,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=22" />
+    <link rel="stylesheet" href="styles.css?v=23" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -109,7 +109,7 @@
           <span>registros analisados</span>
         </div>
         <div class="metric">
-          <strong>2</strong>
+          <strong>3</strong>
           <span>projetos reais em uso</span>
         </div>
         <div class="metric">
@@ -125,13 +125,62 @@
             <h2 id="projects-title">Projetos de Dados e Automação</h2>
           </div>
           <p class="section-note">
-            Uma visão integrada de Business Intelligence aplicado ao Departamento Pessoal: da evolução da carteira à
-            produtividade e à capacidade operacional da equipe. Os dados exibidos nos painéis são fictícios e
-            anonimizados para preservar a privacidade conforme os princípios da LGPD.
+            Três aplicações de Business Intelligence orientadas a decisões comerciais, evolução da carteira e
+            capacidade operacional. Os dados exibidos nos painéis são agregados, fictícios ou anonimizados para
+            preservar a confidencialidade e a privacidade conforme os princípios da LGPD.
           </p>
         </div>
 
         <div class="projects-grid">
+          <article class="project-card project-card-wide commercial-project">
+            <button
+              class="project-visual dashboard-image-preview commercial-image-preview"
+              type="button"
+              data-lightbox-trigger
+              data-lightbox-title="Dashboard de Análise Comercial"
+              aria-label="Ampliar prévia anonimizada do dashboard de análise comercial"
+            >
+              <img
+                src="assets/comercial-dashboard-preview.svg"
+                alt="Prévia anonimizada do dashboard comercial, com captação mensal, evolução de honorários, distribuição geográfica, grupos e regimes tributários."
+                width="1280"
+                height="720"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="gallery-hint" aria-hidden="true">Clique para ampliar</span>
+            </button>
+            <div class="project-body">
+              <div class="project-topline">
+                <span>Inteligência Comercial</span>
+                <span>Excel + Power BI</span>
+              </div>
+              <h3>Dashboard Executivo de Captação e Receita Recorrente</h3>
+              <div class="project-description">
+                <p>
+                  <strong>Problema:</strong> a leitura do desempenho comercial dependia de bases dispersas e não oferecia
+                  uma visão única da captação, da receita recorrente e do perfil dos novos clientes.
+                </p>
+                <p>
+                  <strong>Solução:</strong> modelo analítico no Power BI que consolida entradas, honorários, grupos,
+                  regimes tributários e localização, com filtros por mês e estado.
+                </p>
+                <p>
+                  <strong>Impacto:</strong> acompanhamento executivo de mais de 150 CNPJs captados em dez meses, com
+                  análise de ticket, melhor mês, evolução acumulada e alcance geográfico.
+                </p>
+              </div>
+              <ul class="project-list">
+                <li><strong>Mais de 150 CNPJs consolidados</strong> entre janeiro e outubro de 2026.</li>
+                <li><strong>Captação e honorários analisados mês a mês</strong>, com visão acumulada do resultado comercial.</li>
+                <li><strong>Presença em oito estados e mais de 40 cidades</strong>, apoiando a leitura da expansão geográfica.</li>
+                <li><strong>Segmentação por mais de 50 grupos e três regimes tributários</strong>, permitindo comparar composição e ticket.</li>
+                <li><strong>Indicadores financeiros protegidos na versão pública</strong>, preservando a confidencialidade dos dados comerciais.</li>
+              </ul>
+              <span class="project-status">Case comercial concluído • dados sensíveis protegidos</span>
+            </div>
+          </article>
+
           <article class="project-card image-project">
             <button
               class="project-visual dashboard-image-preview carteira-image-preview"

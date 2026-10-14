@@ -5,6 +5,7 @@ Python e automação.
 
 ## Projetos apresentados
 
+- **Inteligência Comercial:** dashboard em Excel + Power BI para acompanhar captação, receita recorrente, ticket médio, grupos, regimes tributários e distribuição geográfica.
 - **Gestão da Carteira:** dashboard em SQL + Power BI para acompanhar empresas, vidas administradas, tipos de vínculo e crescimento da carteira desde 2020.
 - **Gestão da Operação:** pipeline em Python integrado ao Excel e Power BI para monitorar demandas, produtividade e capacidade operacional da equipe.
 
@@ -12,7 +13,7 @@ Python e automação.
 
 - `index.html`: conteúdo e estrutura semântica do portfólio.
 - `styles.css`: identidade visual e layout responsivo.
-- `script.js`: navegação móvel, comportamento do cabeçalho e galeria do segundo projeto.
+- `script.js`: navegação móvel, comportamento do cabeçalho e galerias dos projetos.
 - `assets/`: imagens do perfil, dashboards e elementos visuais.
 
 ## Publicação
