@@ -40,8 +40,8 @@
   <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">R$ ••••••</text>
   <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio por CNPJ</text><text x="782" y="177" text-anchor="middle" class="kpi">R$ ••••</text>
   <text x="1117" y="95" text-anchor="middle" class="green-title">Destaque de captação</text>
-  <text x="1014" y="178" class="kpi" font-size="24">Melhor resultado</text><line x1="1125" y1="138" x2="1125" y2="191" stroke="#43b774" stroke-width="2"/>
-  <text x="1153" y="151" class="kpi" font-size="21">29</text><text x="1153" y="169" class="tiny">CNPJs</text><text x="1153" y="191" class="tiny">no período</text>
+  <text x="1117" y="165" text-anchor="middle" class="kpi">29</text>
+  <text x="1117" y="188" text-anchor="middle" class="small">CNPJs no período de melhor captação</text>
 
   <g filter="url(#shadow)">
     <rect class="panel" x="6" y="238" width="404" height="211"/>
