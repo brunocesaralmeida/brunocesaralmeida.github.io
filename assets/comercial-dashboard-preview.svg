@@ -1,34 +1,89 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
-  <title id="title">Prévia anonimizada do dashboard de análise comercial</title>
-  <desc id="desc">Painel com indicadores de CNPJs captados, honorários protegidos, evolução mensal, distribuição geográfica, grupos e regimes tributários.</desc>
+  <title id="title">Prévia anonimizada do dashboard Captação Novos Clientes</title>
+  <desc id="desc">Recriação pública do painel em fundo branco e verde, com filtros, quatro indicadores, gráficos mensais, divisão por regime, grupos anonimizados e distribuição geográfica.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081819"/><stop offset="1" stop-color="#102627"/></linearGradient>
-    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#45b979"/><stop offset="1" stop-color="#78d59c"/></linearGradient>
-    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#000" flood-opacity=".22"/></filter>
-    <style>.label{font:700 13px Inter,Arial,sans-serif;letter-spacing:.04em;fill:#5dce8a}.value{font:800 30px Inter,Arial,sans-serif;fill:#f3f8f4}.muted{font:500 12px Inter,Arial,sans-serif;fill:#8da2a0}.axis{font:500 10px Inter,Arial,sans-serif;fill:#819391}.title{font:800 17px Inter,Arial,sans-serif;fill:#f6faf7}.small{font:700 11px Inter,Arial,sans-serif;fill:#b7c6c3}.line{stroke:#233d3e;stroke-width:1}.panel{fill:#102526;stroke:#244243;stroke-width:1}</style>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="140%">
+      <feDropShadow dx="4" dy="6" stdDeviation="5" flood-color="#5b5b5b" flood-opacity=".24"/>
+    </filter>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#49b879" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#49b879" stop-opacity=".16"/>
+    </linearGradient>
+    <style>
+      .heading{font:800 47px Inter,Arial,sans-serif;fill:#242424}.green-title{font:800 13px Inter,Arial,sans-serif;fill:#43b774}.kpi{font:800 35px Inter,Arial,sans-serif;fill:#49b879}.label{font:700 11px Inter,Arial,sans-serif;fill:#151515}.small{font:500 10px Inter,Arial,sans-serif;fill:#394a5e}.tiny{font:600 8px Inter,Arial,sans-serif;fill:#202020}.month{font:700 9px Inter,Arial,sans-serif;fill:#111}.panel{fill:#fff}.divider{stroke:#c8c8c8;stroke-width:6}.grid{stroke:#e6e6e6;stroke-width:1}.green{fill:#4db77c}.green-stroke{stroke:#38a869}.muted{fill:#777}.money{font:800 10px Inter,Arial,sans-serif;fill:#111}
+    </style>
   </defs>
-  <rect width="1280" height="720" fill="url(#bg)"/><rect width="1280" height="74" fill="#071415"/>
-  <circle cx="45" cy="37" r="17" fill="#48bd7d"/><path d="M37 39l6 6 12-16" fill="none" stroke="#071415" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="78" y="33" class="title">ANÁLISE COMERCIAL</text><text x="78" y="52" class="muted">Visão executiva • janeiro a outubro de 2026</text>
-  <rect x="1050" y="23" width="188" height="30" rx="15" fill="#12302a" stroke="#2d7250"/><text x="1144" y="43" text-anchor="middle" class="small" fill="#79daa0">DADOS ANONIMIZADOS</text>
-  <g filter="url(#shadow)"><rect class="panel" x="32" y="96" width="270" height="112" rx="10"/><rect class="panel" x="318" y="96" width="270" height="112" rx="10"/><rect class="panel" x="604" y="96" width="270" height="112" rx="10"/><rect class="panel" x="890" y="96" width="358" height="112" rx="10"/></g>
-  <text x="54" y="125" class="label">CNPJs CAPTADOS</text><text x="54" y="173" class="value">150+</text><text x="54" y="194" class="muted">10 meses acompanhados</text>
-  <text x="340" y="125" class="label">HONORÁRIO RECORRENTE</text><text x="340" y="173" class="value">R$ ••••••</text><text x="340" y="194" class="muted">visão consolidada e protegida</text>
-  <text x="626" y="125" class="label">TICKET MÉDIO / CNPJ</text><text x="626" y="173" class="value">R$ ••••</text><text x="626" y="194" class="muted">monitoramento mensal</text>
-  <text x="912" y="125" class="label">MELHOR MÊS DE CAPTAÇÃO</text><text x="912" y="170" class="value">ABRIL</text><text x="1042" y="170" class="small">29 CNPJs</text><text x="912" y="194" class="muted">maior resultado do período</text>
-  <g filter="url(#shadow)"><rect class="panel" x="32" y="228" width="592" height="224" rx="10"/><rect class="panel" x="640" y="228" width="608" height="224" rx="10"/></g>
-  <text x="54" y="258" class="label">NOVOS CLIENTES POR MÊS</text><line class="line" x1="70" y1="402" x2="590" y2="402"/><line class="line" x1="70" y1="290" x2="70" y2="402"/>
-  <g fill="url(#green)"><rect x="86" y="300" width="31" height="102" rx="4"/><rect x="135" y="310" width="31" height="92" rx="4"/><rect x="184" y="390" width="31" height="12" rx="4"/><rect x="233" y="306" width="31" height="96" rx="4"/><rect x="282" y="359" width="31" height="43" rx="4"/><rect x="331" y="372" width="31" height="30" rx="4"/><rect x="380" y="339" width="31" height="63" rx="4"/><rect x="429" y="389" width="31" height="13" rx="4"/><rect x="478" y="382" width="31" height="20" rx="4"/><rect x="527" y="356" width="31" height="46" rx="4"/></g>
-  <g class="axis" text-anchor="middle"><text x="101" y="421">JAN</text><text x="150" y="421">FEV</text><text x="199" y="421">MAR</text><text x="248" y="421">ABR</text><text x="297" y="421">MAI</text><text x="346" y="421">JUN</text><text x="395" y="421">JUL</text><text x="444" y="421">AGO</text><text x="493" y="421">SET</text><text x="542" y="421">OUT</text></g>
-  <text x="662" y="258" class="label">EVOLUÇÃO ACUMULADA DOS HONORÁRIOS</text><line class="line" x1="678" y1="402" x2="1215" y2="402"/><line class="line" x1="678" y1="290" x2="678" y2="402"/>
-  <path d="M700 384L752 369L804 368L856 343L908 337L960 326L1012 307L1064 302L1116 293L1188 266" fill="none" stroke="#58c789" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M700 384L752 369L804 368L856 343L908 337L960 326L1012 307L1064 302L1116 293L1188 266V402H700Z" fill="#48bd7d" opacity=".12"/>
-  <g fill="#8ce2ad"><circle cx="700" cy="384" r="4"/><circle cx="752" cy="369" r="4"/><circle cx="804" cy="368" r="4"/><circle cx="856" cy="343" r="4"/><circle cx="908" cy="337" r="4"/><circle cx="960" cy="326" r="4"/><circle cx="1012" cy="307" r="4"/><circle cx="1064" cy="302" r="4"/><circle cx="1116" cy="293" r="4"/><circle cx="1188" cy="266" r="4"/></g>
-  <g class="axis" text-anchor="middle"><text x="700" y="421">JAN</text><text x="752" y="421">FEV</text><text x="804" y="421">MAR</text><text x="856" y="421">ABR</text><text x="908" y="421">MAI</text><text x="960" y="421">JUN</text><text x="1012" y="421">JUL</text><text x="1064" y="421">AGO</text><text x="1116" y="421">SET</text><text x="1188" y="421">OUT</text></g>
-  <g filter="url(#shadow)"><rect class="panel" x="32" y="472" width="392" height="214" rx="10"/><rect class="panel" x="440" y="472" width="392" height="214" rx="10"/><rect class="panel" x="848" y="472" width="400" height="214" rx="10"/></g>
-  <text x="54" y="502" class="label">DISTRIBUIÇÃO GEOGRÁFICA</text><text x="54" y="548" class="value">8 estados</text><text x="54" y="571" class="muted">40+ cidades alcançadas</text>
-  <g transform="translate(260 515)" fill="#2f7855" stroke="#6bd596"><path d="M20 0l32 16 29-5 25 20-8 28 17 24-25 14-15 38-34-8-11 22-20-25 9-25-19-23 15-21-5-26z"/><circle cx="53" cy="57" r="6" fill="#b2f0c9"/><circle cx="36" cy="83" r="4" fill="#b2f0c9"/><circle cx="78" cy="35" r="4" fill="#b2f0c9"/></g>
-  <text x="462" y="502" class="label">DIVISÃO POR REGIME</text><circle cx="543" cy="592" r="58" fill="none" stroke="#23403c" stroke-width="23"/><circle cx="543" cy="592" r="58" fill="none" stroke="#4cc181" stroke-width="23" stroke-dasharray="180 365" stroke-linecap="round" transform="rotate(-90 543 592)"/><circle cx="543" cy="592" r="58" fill="none" stroke="#82d9a5" stroke-width="23" stroke-dasharray="137 365" stroke-dashoffset="-185" transform="rotate(-90 543 592)"/>
-  <text x="543" y="588" text-anchor="middle" class="value" font-size="19">3</text><text x="543" y="608" text-anchor="middle" class="muted">regimes</text><circle cx="637" cy="552" r="5" fill="#4cc181"/><text x="650" y="556" class="small">Simples Nacional</text><circle cx="637" cy="586" r="5" fill="#82d9a5"/><text x="650" y="590" class="small">Lucro Presumido</text><circle cx="637" cy="620" r="5" fill="#23403c"/><text x="650" y="624" class="small">Lucro Real</text>
-  <text x="870" y="502" class="label">GRUPOS × HONORÁRIOS</text><text x="870" y="545" class="value">50+</text><text x="944" y="545" class="muted">grupos acompanhados</text>
-  <g><rect x="870" y="574" width="328" height="12" rx="6" fill="#203b38"/><rect x="870" y="574" width="282" height="12" rx="6" fill="#4cc181"/><rect x="870" y="603" width="328" height="12" rx="6" fill="#203b38"/><rect x="870" y="603" width="221" height="12" rx="6" fill="#62ca8d"/><rect x="870" y="632" width="328" height="12" rx="6" fill="#203b38"/><rect x="870" y="632" width="167" height="12" rx="6" fill="#7ad8a1"/></g>
+
+  <rect width="1280" height="720" fill="#f8f8f8"/>
+  <text x="62" y="55" class="heading">Captação Novos Clientes</text>
+  <rect x="700" y="7" width="7" height="55" fill="#d0d0d0"/>
+
+  <g filter="url(#shadow)">
+    <rect x="724" y="4" width="252" height="66" fill="#fff"/>
+    <rect x="982" y="4" width="286" height="66" fill="#fff"/>
+  </g>
+  <text x="850" y="23" text-anchor="middle" class="green-title">Mês</text>
+  <rect x="736" y="34" width="228" height="28" fill="#fff" stroke="#ddd"/>
+  <text x="746" y="53" class="small" font-weight="700">Todos</text><path d="M944 44l6 6 6-6" fill="none" stroke="#777"/>
+  <text x="1125" y="23" text-anchor="middle" class="green-title">Estado</text>
+  <rect x="994" y="34" width="262" height="28" fill="#fff" stroke="#ddd"/>
+  <text x="1004" y="53" class="small" font-weight="700">Todos</text><path d="M1238 44l6 6 6-6" fill="none" stroke="#777"/>
+
+  <g filter="url(#shadow)">
+    <rect class="panel" x="6" y="78" width="226" height="150"/>
+    <rect class="panel" x="239" y="78" width="359" height="150"/>
+    <rect class="panel" x="605" y="78" width="354" height="150"/>
+    <rect class="panel" x="966" y="78" width="302" height="150"/>
+  </g>
+  <line class="divider" x1="233" y1="78" x2="233" y2="228"/><line class="divider" x1="599" y1="78" x2="599" y2="228"/><line class="divider" x1="960" y1="78" x2="960" y2="228"/>
+  <text x="119" y="95" text-anchor="middle" class="green-title">Total de CNPJ Captado</text><text x="119" y="177" text-anchor="middle" class="kpi">154</text>
+  <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">R$ ••••••</text>
+  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio por CNPJ</text><text x="782" y="177" text-anchor="middle" class="kpi">R$ ••••</text>
+  <text x="1117" y="95" text-anchor="middle" class="green-title">Melhor mês de captação</text>
+  <text x="1027" y="178" class="kpi" font-size="24">Abril</text><line x1="1104" y1="138" x2="1104" y2="191" stroke="#43b774" stroke-width="2"/>
+  <text x="1140" y="134" class="kpi" font-size="21">29</text><text x="1140" y="151" class="tiny">CNPJs</text><text x="1136" y="184" class="kpi" font-size="21">•• Mil</text><text x="1152" y="204" class="tiny">Mês</text>
+
+  <g filter="url(#shadow)">
+    <rect class="panel" x="6" y="238" width="404" height="211"/>
+    <rect class="panel" x="417" y="238" width="410" height="211"/>
+    <rect class="panel" x="834" y="238" width="434" height="211"/>
+  </g>
+  <text x="208" y="254" text-anchor="middle" class="green-title">Novos Clientes por Mês</text>
+  <g class="green"><rect x="38" y="294" width="28" height="102"/><rect x="73" y="306" width="28" height="90"/><rect x="108" y="393" width="28" height="3"/><rect x="143" y="302" width="28" height="94"/><rect x="178" y="353" width="28" height="43"/><rect x="213" y="367" width="28" height="29"/><rect x="248" y="334" width="28" height="62"/><rect x="283" y="383" width="28" height="13"/><rect x="318" y="376" width="28" height="20"/><rect x="353" y="350" width="28" height="46"/></g>
+  <g class="label" text-anchor="middle"><text x="52" y="286">31</text><text x="87" y="298">28</text><text x="122" y="385">1</text><text x="157" y="294">29</text><text x="192" y="345">13</text><text x="227" y="359">9</text><text x="262" y="326">19</text><text x="297" y="375">4</text><text x="332" y="368">6</text><text x="367" y="342">14</text></g>
+  <g class="month"><text transform="translate(22 432) rotate(-38)">janeiro</text><text transform="translate(57 432) rotate(-38)">fevereiro</text><text transform="translate(100 432) rotate(-38)">março</text><text transform="translate(140 432) rotate(-38)">abril</text><text transform="translate(174 432) rotate(-38)">maio</text><text transform="translate(209 432) rotate(-38)">junho</text><text transform="translate(244 432) rotate(-38)">julho</text><text transform="translate(279 432) rotate(-38)">agosto</text><text transform="translate(314 432) rotate(-38)">setembro</text><text transform="translate(350 432) rotate(-38)">outubro</text></g>
+
+  <text x="622" y="254" text-anchor="middle" class="green-title">Soma de Honorário por Mês</text>
+  <g class="green"><rect x="448" y="323" width="28" height="73"/><rect x="483" y="362" width="28" height="34"/><rect x="518" y="393" width="28" height="3"/><rect x="553" y="294" width="28" height="102"/><rect x="588" y="375" width="28" height="21"/><rect x="623" y="371" width="28" height="25"/><rect x="658" y="337" width="28" height="59"/><rect x="693" y="383" width="28" height="13"/><rect x="728" y="369" width="28" height="27"/><rect x="763" y="342" width="28" height="54"/></g>
+  <g class="money" text-anchor="middle"><text x="462" y="314">R$ •• mil</text><text x="497" y="354">R$ •• mil</text><text x="532" y="385">R$ • mil</text><text x="567" y="286">R$ •• mil</text><text x="602" y="367">R$ •• mil</text><text x="637" y="363">R$ •• mil</text><text x="672" y="329">R$ •• mil</text><text x="707" y="375">R$ • mil</text><text x="742" y="361">R$ •• mil</text><text x="777" y="334">R$ •• mil</text></g>
+  <g class="month"><text transform="translate(432 432) rotate(-38)">janeiro</text><text transform="translate(467 432) rotate(-38)">fevereiro</text><text transform="translate(510 432) rotate(-38)">março</text><text transform="translate(550 432) rotate(-38)">abril</text><text transform="translate(584 432) rotate(-38)">maio</text><text transform="translate(619 432) rotate(-38)">junho</text><text transform="translate(654 432) rotate(-38)">julho</text><text transform="translate(689 432) rotate(-38)">agosto</text><text transform="translate(724 432) rotate(-38)">setembro</text><text transform="translate(760 432) rotate(-38)">outubro</text></g>
+
+  <text x="1051" y="254" text-anchor="middle" class="green-title">Evolução acumulada dos honorários contratados</text>
+  <path d="M872 396L913 386L954 382L995 356L1036 351L1077 343L1118 329L1159 326L1200 317L1243 297V396Z" fill="url(#area)"/>
+  <path d="M872 396L913 386L954 382L995 356L1036 351L1077 343L1118 329L1159 326L1200 317L1243 297" fill="none" class="green-stroke" stroke-width="3"/>
+  <g fill="#57b883" stroke="#55606a" stroke-width="1.5"><circle cx="872" cy="396" r="6"/><circle cx="913" cy="386" r="6"/><circle cx="954" cy="382" r="6"/><circle cx="995" cy="356" r="6"/><circle cx="1036" cy="351" r="6"/><circle cx="1077" cy="343" r="6"/><circle cx="1118" cy="329" r="6"/><circle cx="1159" cy="326" r="6"/><circle cx="1200" cy="317" r="6"/><circle cx="1243" cy="297" r="6"/></g>
+  <g class="tiny" text-anchor="middle"><text x="872" y="416">Índice 18</text><text x="913" y="378">26</text><text x="954" y="374">27</text><text x="995" y="348">53</text><text x="1036" y="371">59</text><text x="1077" y="335">68</text><text x="1118" y="349">82</text><text x="1159" y="318">87</text><text x="1200" y="337">93</text><text x="1243" y="289">100</text></g>
+  <g class="month"><text transform="translate(852 435) rotate(-38)">janeiro</text><text transform="translate(893 435) rotate(-38)">fevereiro</text><text transform="translate(936 435) rotate(-38)">março</text><text transform="translate(979 435) rotate(-38)">abril</text><text transform="translate(1020 435) rotate(-38)">maio</text><text transform="translate(1061 435) rotate(-38)">junho</text><text transform="translate(1102 435) rotate(-38)">julho</text><text transform="translate(1143 435) rotate(-38)">agosto</text><text transform="translate(1184 435) rotate(-38)">setembro</text><text transform="translate(1225 435) rotate(-38)">outubro</text></g>
+
+  <g filter="url(#shadow)"><rect class="panel" x="6" y="457" width="360" height="251"/><rect class="panel" x="373" y="457" width="482" height="251"/><rect class="panel" x="862" y="457" width="406" height="251"/></g>
+  <text x="186" y="477" text-anchor="middle" class="green-title">Divisão por Regime</text>
+  <g class="small" text-anchor="end"><text x="118" y="538">Simples nacional</text><text x="118" y="583">Lucro presumido</text><text x="118" y="628">Lucro real</text></g>
+  <rect x="126" y="521" width="146" height="25" class="green"/><rect x="126" y="566" width="111" height="25" class="green"/><rect x="126" y="611" width="38" height="25" class="green"/>
+  <g class="small"><text x="279" y="538">76 (49%)</text><text x="244" y="583">58 (38%)</text><text x="171" y="628">20 (13%)</text></g>
+
+  <text x="614" y="477" text-anchor="middle" class="green-title">Grupo × Honorário</text>
+  <text x="387" y="502" class="green-title">GRUPO</text><text x="570" y="502" class="green-title">CNPJs</text><text x="635" y="502" class="green-title">Honorário</text>
+  <line x1="384" y1="510" x2="842" y2="510" stroke="#333"/>
+  <g class="small" fill="#35a86a"><text x="388" y="527">GRUPO A</text><text x="388" y="546">GRUPO B</text><text x="388" y="565">GRUPO C</text><text x="388" y="584">GRUPO D</text><text x="388" y="603">GRUPO E</text><text x="388" y="622">GRUPO F</text><text x="388" y="641">GRUPO G</text><text x="388" y="660">GRUPO H</text><text x="388" y="679">GRUPO I</text></g>
+  <g class="small" text-anchor="end"><text x="624" y="527">5</text><text x="624" y="546">5</text><text x="624" y="565">1</text><text x="624" y="584">2</text><text x="624" y="603">13</text><text x="624" y="622">3</text><text x="624" y="641">5</text><text x="624" y="660">3</text><text x="624" y="679">4</text></g>
+  <g fill="#51b980"><rect x="634" y="516" width="190" height="12"/><rect x="634" y="535" width="154" height="12"/><rect x="634" y="554" width="129" height="12"/><rect x="634" y="573" width="120" height="12"/><rect x="634" y="592" width="107" height="12"/><rect x="634" y="611" width="94" height="12"/><rect x="634" y="630" width="81" height="12"/><rect x="634" y="649" width="70" height="12"/><rect x="634" y="668" width="61" height="12"/></g>
+  <g class="tiny" text-anchor="end"><text x="839" y="526">R$ ••.•••,00</text><text x="839" y="545">R$ ••.•••,00</text><text x="839" y="564">R$ ••.•••,00</text><text x="839" y="583">R$ ••.•••,00</text><text x="839" y="602">R$ ••.•••,00</text><text x="839" y="621">R$ ••.•••,00</text><text x="839" y="640">R$ ••.•••,00</text><text x="839" y="659">R$ ••.•••,00</text><text x="839" y="678">R$ ••.•••,00</text></g>
+
+  <text x="1065" y="477" text-anchor="middle" class="green-title">Distribuição Geográfica</text><text x="875" y="500" class="small" fill="#3ead70">Estados e Cidades</text>
+  <rect x="873" y="508" width="384" height="188" fill="#c8d9ef"/>
+  <path d="M890 560l38-34 57 4 40 22 58-13 65 20 44-7 45 27 35 43-18 39-72 13-45-21-70 15-62-21-45 5-35-37z" fill="#e6e3dc" stroke="#aaa"/>
+  <text x="1010" y="583" class="label" fill="#797979">BRASIL</text><text x="886" y="531" class="tiny" fill="#606060">Equador</text>
+  <g fill="#3faa70" stroke="#183c58" stroke-width="1"><circle cx="1114" cy="641" r="7"/><circle cx="1122" cy="632" r="6"/><circle cx="1130" cy="646" r="6"/><circle cx="1140" cy="636" r="5"/><circle cx="1104" cy="650" r="5"/><circle cx="1087" cy="612" r="7"/><circle cx="1012" cy="583" r="5"/><circle cx="1174" cy="552" r="5"/><circle cx="1040" cy="538" r="5"/></g>
+  <g><rect x="1080" y="592" width="74" height="20" rx="4" fill="#657084"/><text x="1117" y="606" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Rio de Janeiro</text><rect x="1145" y="534" width="44" height="20" rx="4" fill="#657084"/><text x="1167" y="548" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Recife</text><rect x="1000" y="558" width="51" height="20" rx="4" fill="#657084"/><text x="1025" y="572" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Manaus</text></g>
+  <rect x="1090" y="675" width="156" height="19" rx="9" fill="#fff" opacity=".9"/><text x="1168" y="688" text-anchor="middle" class="tiny">visual público anonimizado</text>
 </svg>
