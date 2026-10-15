@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
   <title id="title">Prévia anonimizada do dashboard Captação Novos Clientes</title>
-  <desc id="desc">Recriação pública do painel em fundo branco e verde, com filtros, quatro indicadores, gráficos mensais, divisão por regime, grupos anonimizados e distribuição geográfica.</desc>
+  <desc id="desc">Recriação ilustrativa do painel em fundo branco e verde, sem números, clientes, localidades ou valores da operação real.</desc>
   <defs>
     <filter id="shadow" x="-12%" y="-12%" width="124%" height="140%">
       <feDropShadow dx="4" dy="6" stdDeviation="5" flood-color="#5b5b5b" flood-opacity=".24"/>
@@ -16,6 +16,7 @@
 
   <rect width="1280" height="720" fill="#f8f8f8"/>
   <text x="62" y="55" class="heading">Captação Novos Clientes</text>
+  <text x="64" y="70" class="tiny" fill="#43b774">PRÉVIA ILUSTRATIVA • NENHUM DADO REAL EXIBIDO</text>
   <rect x="700" y="7" width="7" height="55" fill="#d0d0d0"/>
 
   <g filter="url(#shadow)">
@@ -36,12 +37,12 @@
     <rect class="panel" x="966" y="78" width="302" height="150"/>
   </g>
   <line class="divider" x1="233" y1="78" x2="233" y2="228"/><line class="divider" x1="599" y1="78" x2="599" y2="228"/><line class="divider" x1="960" y1="78" x2="960" y2="228"/>
-  <text x="119" y="95" text-anchor="middle" class="green-title">Total de CNPJ Captado</text><text x="119" y="177" text-anchor="middle" class="kpi">154</text>
-  <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">R$ ••••••</text>
-  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio por CNPJ</text><text x="782" y="177" text-anchor="middle" class="kpi">R$ ••••</text>
+  <text x="119" y="95" text-anchor="middle" class="green-title">Total de CNPJ Captado</text><text x="119" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio por CNPJ</text><text x="782" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
   <text x="1117" y="95" text-anchor="middle" class="green-title">Destaque de captação</text>
-  <text x="1117" y="165" text-anchor="middle" class="kpi">29</text>
-  <text x="1117" y="188" text-anchor="middle" class="small">CNPJs no período de melhor captação</text>
+  <text x="1117" y="165" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="1117" y="188" text-anchor="middle" class="small">indicador preservado na versão pública</text>
 
   <g filter="url(#shadow)">
     <rect class="panel" x="6" y="238" width="404" height="211"/>
@@ -49,41 +50,38 @@
     <rect class="panel" x="834" y="238" width="434" height="211"/>
   </g>
   <text x="208" y="254" text-anchor="middle" class="green-title">Novos Clientes por Período</text>
-  <g class="green"><rect x="38" y="294" width="28" height="102"/><rect x="73" y="306" width="28" height="90"/><rect x="108" y="393" width="28" height="3"/><rect x="143" y="302" width="28" height="94"/><rect x="178" y="353" width="28" height="43"/><rect x="213" y="367" width="28" height="29"/><rect x="248" y="334" width="28" height="62"/><rect x="283" y="383" width="28" height="13"/><rect x="318" y="376" width="28" height="20"/><rect x="353" y="350" width="28" height="46"/></g>
-  <g class="label" text-anchor="middle"><text x="52" y="286">31</text><text x="87" y="298">28</text><text x="122" y="385">1</text><text x="157" y="294">29</text><text x="192" y="345">13</text><text x="227" y="359">9</text><text x="262" y="326">19</text><text x="297" y="375">4</text><text x="332" y="368">6</text><text x="367" y="342">14</text></g>
+  <g class="green"><rect x="38" y="326" width="28" height="70"/><rect x="73" y="301" width="28" height="95"/><rect x="108" y="341" width="28" height="55"/><rect x="143" y="308" width="28" height="88"/><rect x="178" y="333" width="28" height="63"/><rect x="213" y="316" width="28" height="80"/><rect x="248" y="344" width="28" height="52"/><rect x="283" y="305" width="28" height="91"/><rect x="318" y="329" width="28" height="67"/><rect x="353" y="321" width="28" height="75"/></g>
   <g class="month" text-anchor="middle"><text x="52" y="416">P1</text><text x="87" y="416">P2</text><text x="122" y="416">P3</text><text x="157" y="416">P4</text><text x="192" y="416">P5</text><text x="227" y="416">P6</text><text x="262" y="416">P7</text><text x="297" y="416">P8</text><text x="332" y="416">P9</text><text x="367" y="416">P10</text></g>
 
   <text x="622" y="254" text-anchor="middle" class="green-title">Soma de Honorário por Período</text>
-  <g class="green"><rect x="448" y="323" width="28" height="73"/><rect x="483" y="362" width="28" height="34"/><rect x="518" y="393" width="28" height="3"/><rect x="553" y="294" width="28" height="102"/><rect x="588" y="375" width="28" height="21"/><rect x="623" y="371" width="28" height="25"/><rect x="658" y="337" width="28" height="59"/><rect x="693" y="383" width="28" height="13"/><rect x="728" y="369" width="28" height="27"/><rect x="763" y="342" width="28" height="54"/></g>
-  <g class="money" text-anchor="middle"><text x="462" y="314">R$ •• mil</text><text x="497" y="354">R$ •• mil</text><text x="532" y="385">R$ • mil</text><text x="567" y="286">R$ •• mil</text><text x="602" y="367">R$ •• mil</text><text x="637" y="363">R$ •• mil</text><text x="672" y="329">R$ •• mil</text><text x="707" y="375">R$ • mil</text><text x="742" y="361">R$ •• mil</text><text x="777" y="334">R$ •• mil</text></g>
+  <g class="green"><rect x="448" y="336" width="28" height="60"/><rect x="483" y="309" width="28" height="87"/><rect x="518" y="350" width="28" height="46"/><rect x="553" y="319" width="28" height="77"/><rect x="588" y="299" width="28" height="97"/><rect x="623" y="329" width="28" height="67"/><rect x="658" y="312" width="28" height="84"/><rect x="693" y="347" width="28" height="49"/><rect x="728" y="323" width="28" height="73"/><rect x="763" y="304" width="28" height="92"/></g>
   <g class="month" text-anchor="middle"><text x="462" y="416">P1</text><text x="497" y="416">P2</text><text x="532" y="416">P3</text><text x="567" y="416">P4</text><text x="602" y="416">P5</text><text x="637" y="416">P6</text><text x="672" y="416">P7</text><text x="707" y="416">P8</text><text x="742" y="416">P9</text><text x="777" y="416">P10</text></g>
 
   <text x="1051" y="254" text-anchor="middle" class="green-title">Evolução acumulada dos honorários contratados</text>
-  <path d="M872 396L913 386L954 382L995 356L1036 351L1077 343L1118 329L1159 326L1200 317L1243 297V396Z" fill="url(#area)"/>
-  <path d="M872 396L913 386L954 382L995 356L1036 351L1077 343L1118 329L1159 326L1200 317L1243 297" fill="none" class="green-stroke" stroke-width="3"/>
-  <g fill="#57b883" stroke="#55606a" stroke-width="1.5"><circle cx="872" cy="396" r="6"/><circle cx="913" cy="386" r="6"/><circle cx="954" cy="382" r="6"/><circle cx="995" cy="356" r="6"/><circle cx="1036" cy="351" r="6"/><circle cx="1077" cy="343" r="6"/><circle cx="1118" cy="329" r="6"/><circle cx="1159" cy="326" r="6"/><circle cx="1200" cy="317" r="6"/><circle cx="1243" cy="297" r="6"/></g>
-  <g class="tiny" text-anchor="middle"><text x="872" y="416">Índice 18</text><text x="913" y="378">26</text><text x="954" y="374">27</text><text x="995" y="348">53</text><text x="1036" y="371">59</text><text x="1077" y="335">68</text><text x="1118" y="349">82</text><text x="1159" y="318">87</text><text x="1200" y="337">93</text><text x="1243" y="289">100</text></g>
+  <path d="M872 392L913 381L954 369L995 362L1036 347L1077 340L1118 326L1159 314L1200 301L1243 285V396H872Z" fill="url(#area)"/>
+  <path d="M872 392L913 381L954 369L995 362L1036 347L1077 340L1118 326L1159 314L1200 301L1243 285" fill="none" class="green-stroke" stroke-width="3"/>
+  <g fill="#57b883" stroke="#55606a" stroke-width="1.5"><circle cx="872" cy="392" r="6"/><circle cx="913" cy="381" r="6"/><circle cx="954" cy="369" r="6"/><circle cx="995" cy="362" r="6"/><circle cx="1036" cy="347" r="6"/><circle cx="1077" cy="340" r="6"/><circle cx="1118" cy="326" r="6"/><circle cx="1159" cy="314" r="6"/><circle cx="1200" cy="301" r="6"/><circle cx="1243" cy="285" r="6"/></g>
   <g class="month" text-anchor="middle"><text x="872" y="430">P1</text><text x="913" y="430">P2</text><text x="954" y="430">P3</text><text x="995" y="430">P4</text><text x="1036" y="430">P5</text><text x="1077" y="430">P6</text><text x="1118" y="430">P7</text><text x="1159" y="430">P8</text><text x="1200" y="430">P9</text><text x="1243" y="430">P10</text></g>
 
   <g filter="url(#shadow)"><rect class="panel" x="6" y="457" width="360" height="251"/><rect class="panel" x="373" y="457" width="482" height="251"/><rect class="panel" x="862" y="457" width="406" height="251"/></g>
   <text x="186" y="477" text-anchor="middle" class="green-title">Divisão por Regime</text>
   <g class="small" text-anchor="end"><text x="118" y="538">Simples nacional</text><text x="118" y="583">Lucro presumido</text><text x="118" y="628">Lucro real</text></g>
-  <rect x="126" y="521" width="146" height="25" class="green"/><rect x="126" y="566" width="111" height="25" class="green"/><rect x="126" y="611" width="38" height="25" class="green"/>
-  <g class="small"><text x="279" y="538">76 (49%)</text><text x="244" y="583">58 (38%)</text><text x="171" y="628">20 (13%)</text></g>
+  <rect x="126" y="521" width="128" height="25" class="green"/><rect x="126" y="566" width="92" height="25" class="green"/><rect x="126" y="611" width="58" height="25" class="green"/>
+  <g class="small"><text x="264" y="538">perfil protegido</text><text x="228" y="583">perfil protegido</text><text x="194" y="628">perfil protegido</text></g>
 
   <text x="614" y="477" text-anchor="middle" class="green-title">Grupo × Honorário</text>
   <text x="387" y="502" class="green-title">GRUPO</text><text x="570" y="502" class="green-title">CNPJs</text><text x="635" y="502" class="green-title">Honorário</text>
   <line x1="384" y1="510" x2="842" y2="510" stroke="#333"/>
   <g class="small" fill="#35a86a"><text x="388" y="527">GRUPO A</text><text x="388" y="546">GRUPO B</text><text x="388" y="565">GRUPO C</text><text x="388" y="584">GRUPO D</text><text x="388" y="603">GRUPO E</text><text x="388" y="622">GRUPO F</text><text x="388" y="641">GRUPO G</text><text x="388" y="660">GRUPO H</text><text x="388" y="679">GRUPO I</text></g>
-  <g class="small" text-anchor="end"><text x="624" y="527">5</text><text x="624" y="546">5</text><text x="624" y="565">1</text><text x="624" y="584">2</text><text x="624" y="603">13</text><text x="624" y="622">3</text><text x="624" y="641">5</text><text x="624" y="660">3</text><text x="624" y="679">4</text></g>
+  <g class="small" text-anchor="end"><text x="624" y="527">•</text><text x="624" y="546">•</text><text x="624" y="565">•</text><text x="624" y="584">•</text><text x="624" y="603">•</text><text x="624" y="622">•</text><text x="624" y="641">•</text><text x="624" y="660">•</text><text x="624" y="679">•</text></g>
   <g fill="#51b980"><rect x="634" y="516" width="190" height="12"/><rect x="634" y="535" width="154" height="12"/><rect x="634" y="554" width="129" height="12"/><rect x="634" y="573" width="120" height="12"/><rect x="634" y="592" width="107" height="12"/><rect x="634" y="611" width="94" height="12"/><rect x="634" y="630" width="81" height="12"/><rect x="634" y="649" width="70" height="12"/><rect x="634" y="668" width="61" height="12"/></g>
   <g class="tiny" text-anchor="end"><text x="839" y="526">R$ ••.•••,00</text><text x="839" y="545">R$ ••.•••,00</text><text x="839" y="564">R$ ••.•••,00</text><text x="839" y="583">R$ ••.•••,00</text><text x="839" y="602">R$ ••.•••,00</text><text x="839" y="621">R$ ••.•••,00</text><text x="839" y="640">R$ ••.•••,00</text><text x="839" y="659">R$ ••.•••,00</text><text x="839" y="678">R$ ••.•••,00</text></g>
 
   <text x="1065" y="477" text-anchor="middle" class="green-title">Distribuição Geográfica</text><text x="875" y="500" class="small" fill="#3ead70">Estados e Cidades</text>
   <rect x="873" y="508" width="384" height="188" fill="#c8d9ef"/>
   <path d="M890 560l38-34 57 4 40 22 58-13 65 20 44-7 45 27 35 43-18 39-72 13-45-21-70 15-62-21-45 5-35-37z" fill="#e6e3dc" stroke="#aaa"/>
-  <text x="1010" y="583" class="label" fill="#797979">BRASIL</text><text x="886" y="531" class="tiny" fill="#606060">Equador</text>
+  <text x="1010" y="583" class="label" fill="#797979">MAPA ILUSTRATIVO</text>
   <g fill="#3faa70" stroke="#183c58" stroke-width="1"><circle cx="1114" cy="641" r="7"/><circle cx="1122" cy="632" r="6"/><circle cx="1130" cy="646" r="6"/><circle cx="1140" cy="636" r="5"/><circle cx="1104" cy="650" r="5"/><circle cx="1087" cy="612" r="7"/><circle cx="1012" cy="583" r="5"/><circle cx="1174" cy="552" r="5"/><circle cx="1040" cy="538" r="5"/></g>
-  <g><rect x="1080" y="592" width="74" height="20" rx="4" fill="#657084"/><text x="1117" y="606" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Rio de Janeiro</text><rect x="1145" y="534" width="44" height="20" rx="4" fill="#657084"/><text x="1167" y="548" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Recife</text><rect x="1000" y="558" width="51" height="20" rx="4" fill="#657084"/><text x="1025" y="572" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Manaus</text></g>
+  <g><rect x="1080" y="592" width="74" height="20" rx="4" fill="#657084"/><text x="1117" y="606" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Região A</text><rect x="1145" y="534" width="54" height="20" rx="4" fill="#657084"/><text x="1172" y="548" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Região B</text><rect x="1000" y="558" width="58" height="20" rx="4" fill="#657084"/><text x="1029" y="572" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">Região C</text></g>
   <rect x="1090" y="675" width="156" height="19" rx="9" fill="#fff" opacity=".9"/><text x="1168" y="688" text-anchor="middle" class="tiny">visual público anonimizado</text>
 </svg>
