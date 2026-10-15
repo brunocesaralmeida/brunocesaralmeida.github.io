@@ -16,7 +16,7 @@
 
   <rect width="1280" height="720" fill="#f8f8f8"/>
   <text x="62" y="55" class="heading">Captação Novos Clientes</text>
-  <text x="64" y="70" class="tiny" fill="#43b774">PRÉVIA ILUSTRATIVA • NENHUM DADO REAL EXIBIDO</text>
+  <text x="64" y="70" class="tiny" fill="#43b774">DADOS 100% FICTÍCIOS • NENHUM DADO REAL EXIBIDO</text>
   <rect x="700" y="7" width="7" height="55" fill="#d0d0d0"/>
 
   <g filter="url(#shadow)">
@@ -37,12 +37,12 @@
     <rect class="panel" x="966" y="78" width="302" height="150"/>
   </g>
   <line class="divider" x1="233" y1="78" x2="233" y2="228"/><line class="divider" x1="599" y1="78" x2="599" y2="228"/><line class="divider" x1="960" y1="78" x2="960" y2="228"/>
-  <text x="119" y="95" text-anchor="middle" class="green-title">Identificadores cadastrais</text><text x="119" y="177" text-anchor="middle" class="kpi">PROTEGIDOS</text>
-  <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
-  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio</text><text x="782" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="119" y="95" text-anchor="middle" class="green-title">Novos cadastros</text><text x="119" y="177" text-anchor="middle" class="kpi">87</text>
+  <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">R$ 148.700,00</text>
+  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio</text><text x="782" y="177" text-anchor="middle" class="kpi">R$ 1.709,20</text>
   <text x="1117" y="95" text-anchor="middle" class="green-title">Destaque de captação</text>
-  <text x="1117" y="165" text-anchor="middle" class="kpi">PROTEGIDO</text>
-  <text x="1117" y="188" text-anchor="middle" class="small">indicador preservado na versão pública</text>
+  <text x="1117" y="165" text-anchor="middle" class="kpi">16</text>
+  <text x="1117" y="188" text-anchor="middle" class="small">novos cadastros no período</text>
 
   <g filter="url(#shadow)">
     <rect class="panel" x="6" y="238" width="404" height="211"/>
@@ -67,7 +67,7 @@
   <text x="186" y="477" text-anchor="middle" class="green-title">Divisão por Regime</text>
   <g class="small" text-anchor="end"><text x="118" y="538">Simples nacional</text><text x="118" y="583">Lucro presumido</text><text x="118" y="628">Lucro real</text></g>
   <rect x="126" y="521" width="128" height="25" class="green"/><rect x="126" y="566" width="92" height="25" class="green"/><rect x="126" y="611" width="58" height="25" class="green"/>
-  <g class="small"><text x="264" y="538">perfil protegido</text><text x="228" y="583">perfil protegido</text><text x="194" y="628">perfil protegido</text></g>
+  <g class="small"><text x="264" y="538">43 (49%)</text><text x="228" y="583">31 (36%)</text><text x="194" y="628">13 (15%)</text></g>
 
   <text x="614" y="477" text-anchor="middle" class="green-title">Grupo × Honorário</text>
   <text x="387" y="502" class="green-title">GRUPO</text><text x="570" y="502" class="green-title">CADASTROS</text><text x="635" y="502" class="green-title">Honorário</text>
