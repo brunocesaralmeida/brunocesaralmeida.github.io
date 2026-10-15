@@ -6,7 +6,7 @@ Python e automação.
 ## Projetos apresentados
 
 - **Inteligência Comercial:** dashboard em Excel + Power BI para acompanhar captação, receita recorrente, ticket médio, grupos, regimes tributários e distribuição geográfica.
-- **Gestão da Carteira:** dashboard em SQL + Power BI para acompanhar empresas, vidas administradas, tipos de vínculo e evolução histórica da carteira.
+- **Gestão da Carteira:** dashboard em SQL + Power BI para acompanhar empresas, vidas administradas, tipos de vínculo e crescimento da carteira desde 2020.
 - **Gestão da Operação:** pipeline em Python integrado ao Excel e Power BI para monitorar demandas, produtividade e capacidade operacional da equipe.
 
 ## Estrutura
