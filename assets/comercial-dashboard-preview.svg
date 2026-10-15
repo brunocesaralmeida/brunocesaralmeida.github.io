@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
   <title id="title">Prévia anonimizada do dashboard Captação Novos Clientes</title>
-  <desc id="desc">Recriação ilustrativa do painel em fundo branco e verde, sem números, clientes, localidades ou valores da operação real.</desc>
+  <desc id="desc">Recriação ilustrativa do painel em fundo branco e verde, sem números reais, CNPJs, razões sociais, clientes, localidades ou valores da operação.</desc>
   <defs>
     <filter id="shadow" x="-12%" y="-12%" width="124%" height="140%">
       <feDropShadow dx="4" dy="6" stdDeviation="5" flood-color="#5b5b5b" flood-opacity=".24"/>
@@ -37,9 +37,9 @@
     <rect class="panel" x="966" y="78" width="302" height="150"/>
   </g>
   <line class="divider" x1="233" y1="78" x2="233" y2="228"/><line class="divider" x1="599" y1="78" x2="599" y2="228"/><line class="divider" x1="960" y1="78" x2="960" y2="228"/>
-  <text x="119" y="95" text-anchor="middle" class="green-title">Total de CNPJ Captado</text><text x="119" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="119" y="95" text-anchor="middle" class="green-title">Identificadores cadastrais</text><text x="119" y="177" text-anchor="middle" class="kpi">PROTEGIDOS</text>
   <text x="419" y="95" text-anchor="middle" class="green-title">Total de honorário recorrente</text><text x="419" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
-  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio por CNPJ</text><text x="782" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
+  <text x="782" y="95" text-anchor="middle" class="green-title">Ticket médio</text><text x="782" y="177" text-anchor="middle" class="kpi">PROTEGIDO</text>
   <text x="1117" y="95" text-anchor="middle" class="green-title">Destaque de captação</text>
   <text x="1117" y="165" text-anchor="middle" class="kpi">PROTEGIDO</text>
   <text x="1117" y="188" text-anchor="middle" class="small">indicador preservado na versão pública</text>
@@ -70,7 +70,7 @@
   <g class="small"><text x="264" y="538">perfil protegido</text><text x="228" y="583">perfil protegido</text><text x="194" y="628">perfil protegido</text></g>
 
   <text x="614" y="477" text-anchor="middle" class="green-title">Grupo × Honorário</text>
-  <text x="387" y="502" class="green-title">GRUPO</text><text x="570" y="502" class="green-title">CNPJs</text><text x="635" y="502" class="green-title">Honorário</text>
+  <text x="387" y="502" class="green-title">GRUPO</text><text x="570" y="502" class="green-title">CADASTROS</text><text x="635" y="502" class="green-title">Honorário</text>
   <line x1="384" y1="510" x2="842" y2="510" stroke="#333"/>
   <g class="small" fill="#35a86a"><text x="388" y="527">GRUPO A</text><text x="388" y="546">GRUPO B</text><text x="388" y="565">GRUPO C</text><text x="388" y="584">GRUPO D</text><text x="388" y="603">GRUPO E</text><text x="388" y="622">GRUPO F</text><text x="388" y="641">GRUPO G</text><text x="388" y="660">GRUPO H</text><text x="388" y="679">GRUPO I</text></g>
   <g class="small" text-anchor="end"><text x="624" y="527">•</text><text x="624" y="546">•</text><text x="624" y="565">•</text><text x="624" y="584">•</text><text x="624" y="603">•</text><text x="624" y="622">•</text><text x="624" y="641">•</text><text x="624" y="660">•</text><text x="624" y="679">•</text></g>
